@@ -6,9 +6,13 @@ About Dataset
 Here are what the columns represent:
 
 credit.policy: 1 if the customer meets the credit underwriting criteria of LendingClub.com, and 0 otherwise.
+
 purpose: The purpose of the loan (takes values "debt_consolidation", "educational", "small_business", and "all_other").
+
 int.rate: The interest rate of the loan, as a proportion (a rate of 11% would be stored as 0.11). Borrowers judged by LendingClub.com to be more risky are assigned higher interest rates.
+
 installment: The monthly installments owed by the borrower if the loan is funded.
+
 log.annual.inc: The natural log of the self-reported annual income of the borrower.
 dti: The debt-to-income ratio of the borrower (amount of debt divided by annual income).
 fico: The FICO credit score of the borrower.
